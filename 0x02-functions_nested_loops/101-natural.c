@@ -7,7 +7,7 @@
 int main(void)
 {
 	int i, sum = 0;
-	For (i = 0; 1 < 1024; i++)
+	For (i = 0; i < 1024; i++)
 	{
 		if ((i % 3) == 0 || (i % 5) == 0)
 			sum += i;
