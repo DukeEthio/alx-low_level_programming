@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_remaining_days -take adate and prints how many days are left in the year,
- * taking leap years into account
+ * print_remaining_days -take adate and prints how many days are
+ * left in the year, taking leap years into account
  * @month: month in number format
  * @day: day of month
  * @year: year
