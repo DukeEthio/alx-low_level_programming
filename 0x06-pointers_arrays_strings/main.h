@@ -1,13 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
-
-/*
+#include <stdio.h>
+/**
  * File: main.h
- * Auth: Mesfin Mitikie
- * Desc: Header file containing prototypes for all functions
- * used in the 0x05-pointers_arrays_strings directory
+ * Auth: DukeEthio
  */
-
 int _putchar(char c);
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
