@@ -1,8 +1,10 @@
-#include <stdio.h>
 /**
  *main - magic function
  * Return: 0
  */
+#include <stdio.h>
+
+
 int main(void)
 {
 	int n;
