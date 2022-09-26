@@ -1,15 +1,15 @@
 #ifndef MAIN_H
 #define MAIN_H
 /**
- * file: main.h
- * auth: Mesfin.M Tessema
- * Desc: header file prototypes for all functions
- * used in the 0x07-pointers_arrays_strings directory.
+ * File: main.h
+ * Auth: Mesfin>M Tessema
+ * Desc:Header file containing prototypes for all functions
+ * used to 0x07-pointers_arrays_strings directory
  */
-#include <sdddef.h>
+#include <stddef.h>
 
 int _putchar(char c);
-void *_memset(void *s, int size_t n);
+void *_memset(void *s, int c, size_t n);
 char *_memcpy(char *dest, char *src, unsigned int n);
 char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
@@ -19,4 +19,4 @@ void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
 void set_string(char **s, char *to);
 
-#endif /*MAIN_H*/
+#endif
